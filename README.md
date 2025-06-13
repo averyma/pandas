@@ -2,7 +2,7 @@
 
 This repository contains the implementation of our ICML 2024 paper *PANDAS: Improving Many-shot Jailbreaking via Positive Affirmation, Negative Demonstration, and Adaptive Sampling* ([paper](https://arxiv.org/pdf/2502.01925)).
 
-## PANDAS Overview:
+## Overview:
 ![PANDAS Overview](figures/overview.png)
 > Many-shot jailbreaking prefixes the malicious target prompt with hundreds of fabricated conversational exchanges, making it appear as though the model has already complied with harmful instructions.
 
