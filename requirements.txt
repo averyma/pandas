@@ -1,0 +1,7 @@
+accelerate==0.33.0
+bayesian-optimization==2.0.3
+pandas==2.2.2
+torch==2.4.0
+transformers==4.48.0.dev0
+wandb==0.19.5
+numpy==1.26.4
