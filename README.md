@@ -1,6 +1,6 @@
 # PANDAS: Improving Many-shot Jailbreaking via Positive Affirmation, Negative Demonstration, and Adaptive Sampling
 
-This repository contains the implementation of our ICML 2024 paper *PANDAS: Improving Many-shot Jailbreaking via Positive Affirmation, Negative Demonstration, and Adaptive Sampling* ([paper](https://arxiv.org/pdf/2502.01925)).
+This repository contains the implementation of our ICML 2025 paper *PANDAS: Improving Many-shot Jailbreaking via Positive Affirmation, Negative Demonstration, and Adaptive Sampling* ([paper](https://arxiv.org/pdf/2502.01925)).
 
 ## Overview:
 ![PANDAS Overview](figures/overview.png)
