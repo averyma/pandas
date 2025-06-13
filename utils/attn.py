@@ -1,5 +1,5 @@
 import torch
-from utils import generate_tokenized_chat
+from utils.general import generate_tokenized_chat
 import numpy as np
 
 import matplotlib.pyplot as plt

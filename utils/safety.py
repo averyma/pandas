@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import List, Tuple
 import logging
-from utils_prompt_format import (
+from utils.prompt_format import (
     LLAMA_GUARD_3_CATEGORY, SafetyCategory, AgentType,
     build_custom_prompt, create_single_turn_conversation,
     PROMPT_TEMPLATE_3,LLAMA_GUARD_3_CATEGORY_SHORT_NAME_PREFIX

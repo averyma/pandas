@@ -1,9 +1,9 @@
 import numpy as np
-from utils_jailbreak import get_demo_by_topic_and_line, MALICIOUS_CATEGORIES
+from utils.jailbreak import get_demo_by_topic_and_line, MALICIOUS_CATEGORIES
 
-from utils_bpe import load_subword_nmt_table, BpeOnlineTokenizer
+from utils.bpe import load_subword_nmt_table, BpeOnlineTokenizer
 
-from utils_smoothLLM import smooth
+from utils.smoothLLM import smooth
 
 def modify_jailbreak_prompt_with_defence(prompt, defence):
     if defence == 'self-reminder':

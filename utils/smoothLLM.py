@@ -1,7 +1,6 @@
 import random
 import string
 
-
 def random_insert_updated(text, insert_pct):
     """Randomly insert new chars into text after selected characters."""
     num_inserts = int(len(text) * insert_pct)

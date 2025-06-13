@@ -5,13 +5,13 @@ https://github.com/meta-llama/llama-recipes/blob/main/recipes/responsible_ai/lla
 
 import torch, os, logging, argparse
 from accelerate import Accelerator
-from utils import (
+from utils.general import (
     get_model_path, setup_logging,
     load_model_and_tokenizer
 )
-from utils_jailbreak import MALICIOUS_CATEGORIES, contains_refusal_phrase
-from utils_prompt_format import AgentType
-from utils_safety import evaluate_safety
+from utils.jailbreak import MALICIOUS_CATEGORIES, contains_refusal_phrase
+from utils.prompt_format import AgentType
+from utils.safety import evaluate_safety
 
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 

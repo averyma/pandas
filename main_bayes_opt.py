@@ -9,14 +9,14 @@ from bayes_opt.logger import JSONLogger, ScreenLogger
 from bayes_opt.event import Events
 from bayes_opt.util import load_logs
 
-from utils_jailbreak import (
+from utils.jailbreak import (
     MALICIOUS_CATEGORIES, sample_shots, prompt_conversion,
     get_logit_of, getFirstCharacter
 )
 
-from utils_log import wandbLogger
+from utils.logger import wandbLogger
 
-from utils import (
+from utils.general import (
     get_model_path, seed_everything, setup_logging, load_model_and_tokenizer
 )
 

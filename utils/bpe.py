@@ -1,7 +1,6 @@
 import heapq
 import numpy as np
 
-
 def load_subword_nmt_table(path):
     """
     :param path: path to merge_table with subword-nmt format

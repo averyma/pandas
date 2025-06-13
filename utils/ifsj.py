@@ -1,10 +1,9 @@
 import random, copy, re
 import numpy as np
 
-from utils_jailbreak import (
+from utils.jailbreak import (
     get_demo_by_topic_and_line, shorten_response_based_on_token_length,
-    MALICIOUS_CATEGORIES,
-    get_logit_of
+    MALICIOUS_CATEGORIES, get_logit_of
 )
 
 def sample_shots_ifsj(target_model, target_prompt, num_shot, model, tokenizer, max_response_limit=100, steps=128):

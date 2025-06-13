@@ -1,6 +1,6 @@
 import torch, copy, csv
 import numpy as np
-from utils import load_tokenizer, get_model_path, generate_tokenized_chat
+from utils.general import load_tokenizer, get_model_path, generate_tokenized_chat
 
 import pandas as pd
 

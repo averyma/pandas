@@ -11,18 +11,18 @@ from accelerate import Accelerator
 
 # If these are internal utility modules, keep them;
 # otherwise remove if not used or rename for clarity.
-from utils import (get_model_path, seed_everything, setup_logging, generate_shot_list,
-                   get_summary, log_gpu_memory_usage, load_model_and_tokenizer,
-                   remove_linebreak_spaces, generate_tokenized_chat)
-from utils_jailbreak import (MALICIOUS_CATEGORIES, get_target_prompt,
+from utils.general import (get_model_path, seed_everything, setup_logging, generate_shot_list,
+                           get_summary, log_gpu_memory_usage, load_model_and_tokenizer,
+                           remove_linebreak_spaces, generate_tokenized_chat)
+from utils.jailbreak import (MALICIOUS_CATEGORIES, get_target_prompt,
                              sample_shots, contains_refusal_phrase,
                              negative_demonstration, positive_affirmation,
                              prompt_conversion)
-from utils_prompt_format import AgentType
-from utils_ifsj import sample_shots_ifsj
-from utils_safety import evaluate_safety
-from utils_log import wandbLogger
-from utils_defence import modify_jailbreak_prompt_with_defence
+from utils.prompt_format import AgentType
+from utils.ifsj import sample_shots_ifsj
+from utils.safety import evaluate_safety
+from utils.logger import wandbLogger
+from utils.defence import modify_jailbreak_prompt_with_defence
 
 # Environment configuration
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
