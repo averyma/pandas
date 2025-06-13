@@ -1,0 +1,22 @@
+advbench:
+  all: 520
+  abuse-platform: 39
+  abusive-predatory: 119
+  child-safety: 10
+  emotionally-harmful: 52
+  infrastructure: 15
+  misinformation: 50
+  privacy: 119
+  regulated-content: 72
+  violent: 44
+advbench50:
+  all: 50
+harmbench:
+  all: 400
+  copyright: 100
+  cybercrime_intrusion: 67
+  illegal: 65
+  misinformation_disinformation: 65
+  chemical_biological: 56
+  harassment_bullying: 25
+  harmful: 22
